@@ -363,6 +363,7 @@ GameObject:
   - component: {fileID: 965594996}
   - component: {fileID: 965594995}
   - component: {fileID: 965594999}
+  - component: {fileID: 965595000}
   m_Layer: 0
   m_Name: Frog
   m_TagString: Untagged
@@ -497,8 +498,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   body: {fileID: 965594996}
+  animator: {fileID: 965595000}
   speed: 2
   jumpSpeed: 3
+--- !u!95 &965595000
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965594994}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f3b7a2b0eb5a18d428913e2113536d7e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &987619567
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,7 +568,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.05307938, y: 0}
+  m_Offset: {x: -0.021462947, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -556,7 +579,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.89384127, y: 1}
+  m_Size: {x: 0.9570741, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &987619570
 SpriteRenderer:
